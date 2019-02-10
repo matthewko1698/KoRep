@@ -1,14 +1,95 @@
 a:link{
-  color: #423518;
+  color: #ffffff;
   text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 15pt;
 }
  a:visited{
-   color: #000000;
+   color: #ffffff;
    text-decoration: none;
+}
+a:active{
+  color: #1c8ece;
+}
+a:hover{
+  color:#1c8ece;
 }
 
 p.links{
-  border-color: #423518;
+  border-style: solid;
+  border-width: medium;
+  border-color: #115277;
+  background-color: #115277;
   border-radius: 20px;
+  text-align: center;
+  height: 5%;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  padding-top: 15px;
+  word-spacing: 5em;
+}
+
+body{
+  background-color: #e0ded7;
+  border: none;
+}
+
+h1{
+  text-align: center;
+  font-family: Lobster;
+  font-size: 300%;
+  color:#115277;
+
+}
+h1.index:first-letter{
+  font-size: 200%;
+}
+
+h2{
+  text-align: center;
+  font-family: Lobster;
+  font-size: 200%;
+}
+
+p.parralax{
+  background-image: url("coffeeindex.jpg");
+  min-height: 65%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width:medium;
+  border-color: #115277;
+}
+
+ul.index{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 150%;
+  list-style-position: inside;
+  align-items: center;
+}
+
+.home{
+  background-color: #115277;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.radio{
+  width=80%;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #115277;
+  background-color: #115277;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-family: Montserrat;
+
 }
